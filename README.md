@@ -75,27 +75,21 @@ __Purpose__
 
 train_pipeline.py
 
-==Contains the complete data loading, Target Encoding, K-Fold cross-validation, and GridSearchCV logic (the core script reviewed in chat).==
+Contains the complete data loading, Target Encoding, K-Fold cross-validation, and GridSearchCV logic (the core script reviewed in chat).
 
 app_gradio.py
 
-==(Planned) Contains the Gradio interface, scraping logic, and model loading functions for deployment.==
+Contains the Gradio interface, scraping logic, and model loading functions for deployment.
 
 final_city_encoder.pkl
 final_state_encoder.pkl
 
-==Saved Python object containing the fitted Target Encoder mappings for the City and State features. ==
+Saved Python object containing the fitted Target Encoder mappings for the City and State features.
 
 best_model_pipeline.pkl
 
-==Saved final model object (includes the scaler and the XGBoost model combined).==
+Saved final model object (includes the scaler and the XGBoost model combined).
 
 Usage Instructions (Once Deployed)
 
 Run the Gradio application (e.g., python app_gradio.py).
-
-Paste a Zillow URL into the input box.
-
-Click "Analyze."
-
-The application outputs a chart showing the Actual Price overlaid against the Predicted Fair Market Price, visually flagging the property as undervalued, fair, or overvalued.
