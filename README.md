@@ -73,22 +73,22 @@ __File Name__
 
 __Purpose__
 
-train_pipeline.py
+_train_pipeline.py_
 
-Contains the complete data loading, Target Encoding, K-Fold cross-validation, and GridSearchCV logic (the core script reviewed in chat).
+* Contains the complete data loading, Target Encoding, K-Fold cross-validation, and GridSearchCV logic (the core script reviewed in chat).
 
-app_gradio.py
+_app_gradio.py_
 
-Contains the Gradio interface, scraping logic, and model loading functions for deployment.
+* Contains the Gradio interface, scraping logic, and model loading functions for deployment.
 
-final_city_encoder.pkl
-final_state_encoder.pkl
+_final_city_encoder.pkl
+final_state_encoder.pkl_
 
-Saved Python object containing the fitted Target Encoder mappings for the City and State features.
+* Saved Python object containing the fitted Target Encoder mappings for the City and State features.
 
-best_model_pipeline.pkl
+_best_model_pipeline.pkl_
 
-Saved final model object (includes the scaler and the XGBoost model combined).
+* Saved final model object (includes the scaler and the XGBoost model combined).
 
 Usage Instructions (Once Deployed)
 
