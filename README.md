@@ -71,15 +71,7 @@ pip install pandas scikit-learn xgboost category-encoders gradio matplotlib plot
 
 __File Name__
 
-__Purpose__
-
-_train_pipeline.py_
-
-* Contains the complete data loading, Target Encoding, K-Fold cross-validation, and GridSearchCV logic (the core script reviewed in chat).
-
-_app_gradio.py_
-
-* Contains the Gradio interface, scraping logic, and model loading functions for deployment.
+* __Purpose__
 
 _final_city_encoder.pkl
 final_state_encoder.pkl_
